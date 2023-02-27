@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int m, n;// m and n are the dimensions of the paper
+    cin >> m >> n;
+    cout << (m - 1) + (n - 1);// since we need to make that length-1 cut in the paper
+    return 0;
+}
